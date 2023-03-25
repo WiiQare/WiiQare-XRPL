@@ -58,7 +58,7 @@ async function main() {
   
   
     // Create trust line from hot to cold address --------------------------------
-    const currency_code = "WQT"
+    const currency_code = "WQR"
     const hot_trust_set_tx = {
       "TransactionType": "TrustSet",
       "Account": hot_wallet.address,
